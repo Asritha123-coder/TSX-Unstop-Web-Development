@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+body {
+background-color: black;
+width: 100%;
+}
+.images {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 50px;
+flex-wrap: wrap;
+padding-top: 40px;
+align-content: center;
+}
+img {
+width: 250px;
+height: 200px;
+object-fit: cover;
+}
+.container {
+display: flex;
+flex-direction: column;
+width: 320px;
+height: 400px;
+background-color: rgb(152,147,137);
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(255,255,255,0.3);
+text-align: center;
+padding: 15px;
+transition: transform 0.3s ease-in-out,border-color 0.3s;
+}
+.container:hover {
+transform: scale(1.05);
+}
+.toppanel {
+width: 100%;
+height: 180px;
+padding-bottom: 10px;
+}
+.bottompanel {
+color: black;
+padding: 15px;
+font-size: medium;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;color:rgb(141,141,187);">Projects</h1>
+<div class="images">
+<div class="container">
+<div class="toppanel">
+<img src="https://www.shutterstock.com/image-vector/professional-businesswoman-working-her-computer-600nw-2215180615.jpg">
+</div>
+<div class="bottompanel">
+<p>The project aims to develop a simple yet efficient billing system using C++ to automate the process of generating and managing bills for customers. This system can be used in retail stores, restaurants, or service-based businesses to track purchases, calculate totals, and generate invoices</p>
+</div>
+</div>
+<div class="container">
+<div class="toppanel">
+<img src="https://www.travelopro.com/public/images/contents/Bus-Reservation-System1.jpg">
+</div>
+<div class="bottompanel">
+<p>The project aims to develop a Bus Reservation System using the C programming language to help passengers book tickets, check seat availability, and manage reservations efficiently. This system is designed for bus operators to streamline ticket bookings and cancellations.</p>
+</div>
+</div>
+<div class="container">
+<div class="toppanel">
+<img src="https://img.freepik.com/free-photo/businesspeople-working-finance-accounting-analyze-financial-graph-budget-planning-future-office-room_74952-1396.jpg?t=st=1739795961~exp=1739799561~hmac=82d784924ec8c49fffe0fcd9eafa7cb62ae9ac867481b3876167431f12844e10&w=996">
+</div>
+<div class="bottompanel">
+<p>This project aims to analyze a dataset to extract meaningful insights, identify trends, and support data-driven decision-making. The analysis involves data cleaning, exploratory data analysis (EDA), statistical modeling, and visualization.</p>
+</div>
+</div>
+</div>
+</body>
+</html>

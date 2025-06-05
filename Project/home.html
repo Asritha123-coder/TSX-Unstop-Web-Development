@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+body {
+background-color: black;
+color: white;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+}
+.navbar {
+width: 100%;
+background-color: #222;
+padding: 15px;
+display: flex;
+justify-content: center;
+gap: 20px;
+position: fixed;
+top: 0;
+left: 0;
+text-align: center;
+align-items: center;
+}
+.navbar a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+padding: 10px;
+}
+.navbar a:hover {
+background-color: gray;
+border-radius: 5px;
+}
+.container {
+display: flex;
+flex-direction: row;
+width: 80%;
+max-width: 1200px;
+margin-top: 80px;
+padding-top: 50px;
+align-content: center;
+}
+.leftpanel {
+width: 40%;
+justify-content: center;
+align-items: center;
+}
+.rightpanel {
+width: 60%;
+padding-left: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+img {
+width: 350px;
+height: 450px;
+border-radius: 50%;
+border: 5px solid rgb(191,238,184);
+box-shadow: 2px 2px 10px gray;
+object-fit: cover;
+object-position: center;
+margin-top: 50px;
+}
+h2,p {
+margin: 10px 0;
+}
+.dev {
+padding-right: 300px;
+padding-left: 30px;
+}
+.button1 {
+padding: 5px 10px;
+font-size: 20px;
+width: 150px;
+height: 50px;
+color: white;
+background-color: #52d157;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+transition: background 0.3s;
+display: inline;
+}
+.button1:hover {
+background-color: #5b75d1;
+}
+* {
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+<h1 class="dev">Developer</h1>
+<a href="home.html">Home</a>
+<a href="Education.html">Education</a>
+<a href="Skills.html">Skills</a>
+<a href="Projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</div>
+<div class="container">
+<div class="leftpanel">
+<img src="https://www.shutterstock.com/image-photo/young-woman-ready-job-business-600nw-1975037876.jpg">
+</div>
+<div class="rightpanel">
+<h2 style="font-size: 40px; align-content: flex-start; color: blueviolet;">Hi 👋<br>I'm Asritha<br>A web Developer</h2>
+<p style="margin-top: 10px;padding-top: 10px; font-size: 20px;padding-bottom: 20px;">I am a passionate Computer Science and Engineering student at SRM University AP. I specialize in C, C++, Python, SQL, Data Structures, HTML, CSS, JavaScript. I enjoy problem-solving, coding challenges, and working on innovative projects.</p>
+<div class="buttonsec">
+<button class="button1" onclick="location.href='sample resume3.html'">Download CV</button>
+<button class="button1" onclick="location.href='contact.html'">Hire Me</button>
+</div>
+</div>
+</div>
+</body>
+</html>

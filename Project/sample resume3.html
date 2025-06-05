@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background: rgb(204,204,204);
+width: 21cm;
+height: 29.7cm;
+margin: 0 auto;
+}
+page {
+background: white;
+display: block;
+margin: 0 auto;
+margin-bottom: 0.5cm;
+position: relative;
+}
+page[size="A4"] {
+width: 21cm;
+height: 29.7cm;
+}
+@page {
+size: 21cm 29.7cm;
+margin: 0mm;
+}
+.container {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+}
+.leftPanel {
+width: 35%;
+background-color: rgb(248,240,233);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.list {
+margin-left: 0cm;
+margin-right: 20px;
+}
+.rightPanel {
+width: 73%;
+padding: 0.5cm;
+}
+img {
+width: 4cm;
+height: 4cm;
+margin-bottom: 0.7cm;
+border-radius: 50%;
+border: 0.15cm solid white;
+object-fit: cover;
+object-position: 50% 50%;
+}
+.details {
+width: 100%;
+display: flex;
+flex-direction: column;
+padding-left: 30px;
+}
+h1 {
+font-family: 'Julius Sans One', sans-serif;
+font-size: 0.5cm;
+}
+h3 {
+font-family: 'Open-Sans', sans-serif;
+font-size: small;
+}
+h2 {
+font-family: 'Open-Sans', sans-serif;
+}
+.insname {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 10px;
+}
+.place {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 10px;
+}
+.score {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 10px;
+padding-left: 30px;
+}
+.points {
+font-size: mediium;
+}
+.platforms {
+font-size: mediium;
+}
+* {
+font-family: 'Times New Roman', Times, serif;
+}
+</style>
+</head>
+<body>
+<page size="A4">
+<div class="container">
+<div class="leftPanel">
+<img src="imaga2.jpg">
+<div class="details">
+<div class="itembottomline">
+<h2>Contacts</h2>
+<div class="list">
+<ul>
+<li>Email:<a href="mailto:asritha_asireddy@srmap.edu.in.com">asritha.gmail.com</a></li>
+<li>Phone: 1234567891</li>
+<li>Linkedln:<a href="https://www.linkedin.com/in/asritha-asireddy-992436291">linkedin.com/in/Asritha</a></li>
+<li>github:<a href="https://github.com/Asritha123-coder">github.com/Asritha</a></li>
+</ul>
+</div>
+</div>
+<div class="itembottomline">
+<h2>Skills</h2>
+<h3>Proficient</h3>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>Python</li>
+<li>DSA</li>
+<li>SQl</li>
+</ul>
+<h3>Familiar</h3>
+<ul>
+<li>Java</li>
+<li>Pandas</li>
+<li>Numpy</li>
+<li>HTml</li>
+<li>CSS</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="rightPanel">
+<div>
+<h1>ASIREDDY ASRITHA</h1>
+<div class="small text">
+<h3>Data Analyst</h3>
+</div>
+</div>
+<div class="about">
+<h2>About me</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div class="edu">
+<h2>Education</h2>
+<ul>
+<li>
+<div class="insname">
+<span><b>Good Shepherd English Medium School</b></span>
+<span><b>A.P.Board of secondary education(BSEAP)</b></span>
+</div>
+<div class="place">
+<span>Nandyal,India</span>
+<span>June,2020-May,2021</span>
+</div>
+<div class="score">
+<span>Score:590/600</span>
+</div>
+</li>
+<li>
+<div class="insname">
+<span><b>Narayana Junior College</b></span>
+<span><b>A.P.Board of Intermediate education(BIEAP)</b></span>
+</div>
+<div class="place">
+<span>Nandyal,India</span>
+<span>Jul,2021-May,2023</span>
+</div>
+<div class="score">
+<span>Score:976/1000</span>
+</div>
+</li>
+<li>
+<div class="insname">
+<span><b>SRM University</b></span>
+<span><b>B.Tech computer science and engineering</b></span>
+</div>
+<div class="place">
+<span>Andhra Pradesh,India</span>
+<span>Jul,2023-Present</span>
+</div>
+<div class="score">
+<span>CGPA:9.21(Till 3rd sem)</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="pro">
+<h2>Projects</h2>
+<div>
+<h3>Bus reservation system</h3>
+</div>
+<div class="points">
+<ul>
+<li><b>Use of C structures : </b>buses, passengers, and reservations effectively, ensuring clear organization of data.</li>
+<li><b> Fundamental C programming concepts :</b> Built using arrays, loops, conditional statements, and functions for robust and maintainable code.</li>
+<li><b> Dynamic seat allocation :</b>Implements simple algorithms to handle seat booking, cancellation, and availability checks.</li>
+</ul>
+</div>
+<div>
+<h3>Billing System</h3>
+</div>
+<div class="points">
+<ul>
+<li><b> Class-based design :</b> Models entities like product , customer , and invoice using encapsulation, ensuring clear data management and logical structure.</li>
+<li><b> OOP principles : </b>Leverages inheritance for reusable code, polymorphism for flexible billing scenarios, and constructors/destructors for efficient memory management.</li>
+<li><b> Dynamic and modular :</b> Supports scalable features like adding products, applying discounts, and generating invoices through a user-friendly CLI interface.</li>
+</ul>
+</div>
+</div>
+<div class="platforms">
+<h2>Programming Platforms</h2>
+<ul>
+<li>Solved 50+ algorithmic problems on LeetCode, specializing in arrays, vectors, and strings.</li>
+<li>CodeChef 1★ rating with 100+ problems solved and active contest participation.</li>
+</ul>
+</div>
+</div>
+</div>
+</page>
+</body>
+</html>
